@@ -22,13 +22,13 @@ void loop() {
     if (buttons & (1<<0)) {
     neokey.pixels.setPixelColor(0, 0x00FFFF); // blue
 //    neokey.pixels.show();
-    Keyboard.print("kdt");
+    Keyboard.print("abc");
     delay(10);
     Keyboard.press(KEY_TAB);
     delay(10);
     Keyboard.releaseAll();
     delay(10);
-    Keyboard.print("0505");
+    Keyboard.print("1234");
     delay(10);
     Keyboard.press(KEY_KP_ENTER);
     delay(10);
@@ -40,7 +40,7 @@ void loop() {
     if (buttons & (1<<1)) {
     neokey.pixels.setPixelColor(1, 0x00FF00); // green
 //    neokey.pixels.show();
-    Keyboard.print("010");
+    Keyboard.print("123");
     delay(10);
     Keyboard.press(KEY_TAB);
     delay(10);
@@ -52,7 +52,7 @@ void loop() {
     if (buttons & (1<<2)) {
     neokey.pixels.setPixelColor(2, 0xFFFF00); // yellow
 //    neokey.pixels.show();
-    Keyboard.print("104ns");
+    Keyboard.print("123ab");
     delay(10);
     Keyboard.press(KEY_TAB);
     delay(10);
@@ -64,7 +64,7 @@ void loop() {
   if (buttons & (1<<3)) {
     neokey.pixels.setPixelColor(3, 0xFF0000); // red
 //    neokey.pixels.show();
-    Keyboard.print("279k");
+    Keyboard.print("123a");
     delay(10);
     Keyboard.press(KEY_TAB);
     delay(10);
